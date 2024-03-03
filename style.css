@@ -1,0 +1,56 @@
+.postcard {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fafafa;
+    position: relative;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 7%;
+}
+img {
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+    position: absolute;
+    top: 5%;
+    left: 75%;
+}
+
+.parrafo {
+    margin-top: 20%;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario {
+    align-items: center;
+    display: flex;
+   
+}
+
+.postcard .text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.postcard form input[type="text"] {
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.postcard input[type="submit"] {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
